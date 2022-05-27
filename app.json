@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "discoverio-front",
+    "slug": "discoverio-front",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "discoverio-front"
+}
