@@ -21,7 +21,7 @@ export default StyleSheet.create({
   backgroundColor: {
     backgroundColor: '#ffffff'
   },
-  foregroundbackgroundColor: {
+  foregroundColor: {
     backgroundColor: '#dbe9ee'
   },
 

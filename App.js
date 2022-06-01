@@ -19,19 +19,19 @@ export default function App() {
       <Text style={[s.backgroundColor, s.primaryColor, s.fs36, s.p2]}>Buttons</Text>
       <FlatButton text="Click me !" bkgColor={s.primarybackgroundColor} txtColor={s.foregroundColor} />
       <FlatButton text="Click me !" bkgColor={s.secondarybackgroundColor} txtColor={s.foregroundColor} />
-      <FlatButton text="Click me !" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
+      <FlatButton text="Click me !" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
       <FlatButton text="Click me !" bkgColor={s.backgroundColor} txtColor={s.primaryColor} />
 
-      <FlatButton text="♥" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
-      <FlatButton text="+" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
-      <FlatButton text="☑" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
-      <FlatButton text="▩ Roll !" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
-      <FlatButton text="★" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
+      <FlatButton text="♥" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
+      <FlatButton text="+" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
+      <FlatButton text="☑" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
+      <FlatButton text="▩ Roll !" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
+      <FlatButton text="★" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
       
       <Text style={[s.backgroundColor, s.primaryColor, s.fs36, s.p2]}>Cards</Text>
 
       <Card bkgColor={s.backgroundColor} txtColor={s.primaryColor} borderColor={s.borderColor}></Card>
-
+      <Card bkgColor={s.backgroundColor} txtColor={s.primaryColor} borderColor={s.borderColor}></Card>
       
       <Text style={[s.backgroundColor, s.primaryColor, s.fs36, s.p2]}>...</Text>              
     </View>

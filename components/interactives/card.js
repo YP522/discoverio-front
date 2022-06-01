@@ -12,9 +12,9 @@ export default function Card({bkgColor, borderColor}) {
                 <Text style={[s.primaryColor, s.fs12, s.p4]}>Et omnia in potestate nostra esse natura liber, libera, libere valeant, sed illis non est in nostra potestate sunt infirmi, sevilis, licet, lex pertinet.</Text>
                    
                 <View style={styles.row}>
-                    <FlatButton text="♥" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
-                    <FlatButton text="+" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />
-                    <FlatButton text="☑" bkgColor={s.foregroundbackgroundColor} txtColor={s.primaryColor} />      
+                    <FlatButton text="♥" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
+                    <FlatButton text="+" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
+                    <FlatButton text="☑" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />      
                 </View>
                 
 
