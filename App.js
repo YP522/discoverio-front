@@ -69,8 +69,8 @@ function ProfileScreen() {
 
 export default function App() {
   return (
-    // <NavigationContainer>
+    <NavigationContainer>
       <AppNavigator />
-    {/* </NavigationContainer> */}
+    </NavigationContainer>
   );
 }
