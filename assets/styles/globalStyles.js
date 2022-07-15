@@ -61,8 +61,21 @@ export default StyleSheet.create({
   p4: {
     padding: '4%'
   },
+  m4: {
+    margin: '4%'
+  },
+  w9: {
+    width: '9%'
+  },
 
   borderColor: {
     borderColor: '#18206F'
+  },
+
+  row: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    alignSelf: "center",
   }
+
 });

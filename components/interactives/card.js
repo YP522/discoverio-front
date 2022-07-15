@@ -2,6 +2,9 @@ import React from 'react';
 import { StyleSheet, Dimensions, View, Text, Image } from 'react-native';
 import FlatButton from './button';
 import s from '../../assets/styles/globalStyles';
+import MyCheckbox from '../../components/interactives/checkbox';
+import MyLovebox from '../../components/interactives/lovebox';
+import MyPlusbox from '../../components/interactives/plusbox';
 
 export default function Card({bkgColor, borderColor}) {
     return (
@@ -11,13 +14,11 @@ export default function Card({bkgColor, borderColor}) {
                 <Image source={require('../../assets/images/benoit-deschasaux-E8-giPBa8gs-unsplash.jpg')} style={styles.image} /> 
                 <Text style={[s.primaryColor, s.fs12, s.p4]}>Et omnia in potestate nostra esse natura liber, libera, libere valeant, sed illis non est in nostra potestate sunt infirmi, sevilis, licet, lex pertinet.</Text>
                    
-                <View style={styles.row}>
-                    <FlatButton text="♥" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
-                    <FlatButton text="+" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />
-                    <FlatButton text="☑" bkgColor={s.foregroundColor} txtColor={s.primaryColor} />      
+                <View style={[styles.row, s.m4, s.w9]}>
+                    <MyLovebox />
+                    <MyPlusbox />       
+                    <MyCheckbox />
                 </View>
-                
-
             </View>
         </View>
     );
